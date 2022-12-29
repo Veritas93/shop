@@ -1,5 +1,5 @@
 class Product
-  attr_reader :name, :price, :count, :zhanr, :avtor, :age
+  attr_accessor :name, :price, :count, :zhanr, :avtor, :age
   # В конструктор класса подаем параметр params
   # В качестве params будет будет использоваться Hash
   def initialize(params)
